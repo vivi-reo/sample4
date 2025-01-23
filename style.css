@@ -1,0 +1,775 @@
+@charset "UTF-8";
+
+body {
+    font-family:"Open Sans","Noto sans JP","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif, Verdana, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+    color: #2c2c2c;    
+}
+
+
+
+
+/**********   共通   **********/
+
+
+.vidual {
+    width: 980px;
+    margin: 30px auto ;
+}
+
+.vidual p {
+    margin: 10px 0 30px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+#about img {
+    padding-bottom: 20px;
+}
+
+
+.img {
+    width: 980px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 200px 0 80px 0;
+    padding-top: 20px;
+    text-decoration: underline #93e4e7 5px;
+    text-underline-offset: 8px;
+    line-height: 2;
+}
+
+li {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto ;
+}
+
+
+.default-text {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+.link-text a {text-decoration: none;}
+ /*クリックする前*/
+.link-text a:link {color: #2c2c2c;}
+ /*マウスオーバー*/
+.link-text :hover {opacity: 0.6;
+                 transition-duration: 0.3s; }
+ /*クリックした後*/
+.link-text :visited {color: #2c2c2c;}
+
+.link-icon {width: 8px;
+            height: 13px;}
+
+
+
+
+
+
+
+
+
+
+/**********   ヘッダー   **********/
+
+header{
+    background-color: #fae0df;
+}
+
+
+header #menu{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navi li {
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+ }
+
+.navi a {
+    text-decoration: none;
+ }
+
+ /**** リンクの設定 ****/
+
+ /*クリックする前*/
+.navi a:link {color: #666;}
+ /*マウスオーバー*/
+.navi a:hover {text-decoration: underline #666 1px;
+               text-underline-offset: 5px;}
+ /*クリックした後*/
+.navi a:visited {color: #888;}
+ /*クリックするとき*/
+.navi a:active {color: #c4c4c4;}
+
+
+
+
+
+/**********   メイン   **********/
+
+
+
+
+/**********   キャンペーン   **********/
+
+#campaign p {
+    font-size: 14px;
+    color: #888;
+}
+
+#campaign a {
+    text-decoration: none;
+}
+
+ /*クリックする前*/
+#campaign a:link {color: #eeaf42;}
+ /*マウスオーバー*/
+#campaign a:hover {color: #aaa;}
+/*クリックした後*/
+#campaign a:visited {color: #eab863;}
+/*クリックするとき*/
+#campaign a:active {color: #ddd;}
+
+
+
+
+/**********   TVCM  **********/
+
+#tv-cm {
+    background-color: #fae0df;
+    padding: 20px 0;
+}
+
+
+#tv-cm p {
+    font-size: 14px;
+    color: #888;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.movie {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/**********   実績  **********/
+
+
+.achievements-wrapper {
+    width: 980px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.achievements-wrapper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px 0 30px;
+}
+
+.achievements-wrapper p {
+    margin-bottom: 10px;
+}
+
+
+.achievements-wrapper a {
+    text-decoration: underline 1px;
+    text-underline-offset: 5px;
+}
+
+/*クリックする前*/
+.achievements-wrapper a:link {color: #eeaf42;}
+ /*マウスオーバー*/
+.achievements-wrapper a:hover {color: #aaa;}
+/*クリックした後*/
+.achievements-wrapper a:visited {color: #eab863;}
+/*クリックするとき*/
+.achievements-wrapper a:active {color: #ddd;}
+
+
+.button {
+    margin-top: 50px;
+}
+
+.button  a {text-decoration: none;}
+ /*クリックする前*/
+.button  a:link {color: #666;}
+ /*マウスオーバー*/
+.button  a:hover {opacity: 0.6;
+                 transition-duration: 0.3s; }
+ /*クリックした後*/
+.button a:visited {color: #888;}
+
+
+
+
+/**********   ママ専用について  **********/
+
+#about {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#about p {
+    margin: 50px 0;
+    line-height: 1.5;
+}
+
+
+
+
+
+/**********   シッターサービス **********/
+
+
+#sitter {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#sitter li  {
+    text-decoration: none;
+}
+
+#sitter .text1 {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#sitter .text1 ul {
+    width: fit-content;
+    margin:  0 auto;
+    text-align: left;
+}
+
+#sitter .text2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#sitter .text2 ul {
+    width: fit-content;
+    margin:  0 auto;
+    text-align: left;
+}
+
+#sitter .icon-wrapper {
+    width: 980px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+#sitter .icon-group {
+    width: 150px;
+    margin: 30px 0;
+    height: 270px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 2em 0;
+    border: solid 2px #fae0df;
+    border-radius: 10px;
+}
+
+#sitter .icon {
+    width: 120px;
+    vertical-align: top;
+}
+
+#sitter .text-area {
+    margin: 10px 0;
+}
+
+#sitter .text-area h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#sitter .text-area p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.5;
+}
+
+
+
+
+/**********   LIVE配信 **********/
+
+#live p {
+    line-height: 1.5;
+}
+
+.features1 {
+    background-color: #fae0df;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.vidual img {
+    padding: 30px 0;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    margin: 70px auto;
+}
+
+.features1 img {
+    width: 500px;
+    margin-right: 30px;
+}
+
+.features-text h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0 50px;
+    line-height: 1.5;
+}
+
+.features-text p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.features-text p span {
+    font-weight: bold;
+}
+
+
+.features2 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.features2 img {
+    width: 500px;
+    margin-left: 30px;
+}
+
+
+.features-wrapper2 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.features-wrapper2 h2 {
+    text-align: center;
+}
+
+.features-wrapper2 p {
+    text-align: center;
+}
+
+.features3 {
+    padding-top: 120px;
+}
+
+.features3 ul {
+    width: 900px;
+    margin: 0 auto;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.features3 ul li p {
+    margin-bottom: 20px;
+}
+
+.features3 ul img {
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+
+/**********   現職や復職に向けてWwbデザインの学習をしたい方にもおススメ  **********/
+
+
+.osusume-img {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.osusume-img img {
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+
+/**********   人生を変えたママがたくさん！  **********/
+
+
+.interview-img {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interview-img img {
+    width: 450px;
+}
+
+
+.interview-link {
+    margin: 50px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.interview-link a {
+    text-decoration: none;
+}
+
+
+/*クリックする前*/
+.interview-link a:link {color: #eeaf42;}
+ /*マウスオーバー*/
+.interview-link a:hover {color: #aaa;}
+/*クリックした後*/
+.interview-link a:visited {color: #eab863;}
+/*クリックするとき*/
+.interview-link a:active {color: #ddd;}
+
+
+/**********   講座で学べる内容  **********/
+
+
+.kouza-naiyou-img {
+    width: 70%;
+    margin-left: 150px;
+}
+
+.cautionary-note {
+    font-size: 14px;
+    color: #888;
+    margin: 60px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.cautionary-note ul {
+    width: fit-content;
+    margin:  0 auto;
+    text-align: left;
+}
+
+
+/**********   講義後のアンケートに、95.4%の受講生が「満足」と答えてくださいました **********/
+
+
+#questionnaire {
+    background-color: #fae0df;
+}
+
+.questionnaire-img img {
+    width: 430px;
+    margin: 0 20px;
+}
+
+
+
+/**********   しっかりしたサポートで、お客様の満足度と成長に向き合います **********/
+
+
+.support-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support-list li {
+    width: 300px;
+}
+
+.support-list img {
+    width: 200px;
+    margin: 0 50px;
+}
+
+.support-list h3 {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.support-list p {
+    line-height: 1.5;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+/**********   講座日程について **********/
+
+#schedule .default-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#schedule .default-text ul{
+width: fit-content;
+margin:  0 auto;
+text-align: left;
+}
+
+
+
+/**********   講師紹介 **********/
+
+#teacher {
+    background-color: #fae0df;
+}
+
+
+.teacher {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.teacher img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.teacher-area {
+    width: 800px;
+}
+
+
+.teacher-area h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.teacher-area h3 {
+    font-weight: bold;
+    margin: 20px 0 5px;
+}
+
+
+/**********   無料説明会開催日程  **********/
+
+
+#information a img {
+    width: 980px;
+    margin: 30px auto;
+}
+
+.information {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-text h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.information-text ul {
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.cautionary-note span {
+    font-weight: bold;
+}
+
+
+/**********   よくある質問  **********/
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.faq h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.faq-text {
+    margin-top: 10px;
+}
+
+
+.faq-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-text p {
+    color: #666;
+    text-align: left;
+}
+
+
+
+/**********   Web以外にも、多様な講座をご用意しています  **********/
+
+
+.others {
+    width: 300px;
+}
+
+.others img {
+    width: 300px;
+}
+
+
+.others-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.others h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.others p {
+    color: #666;
+    text-align: left;
+}
+
+.others-text a {
+    text-decoration: none;
+}
+
+/*クリックする前*/
+.others-text a:link {color: #eeaf42;}
+ /*マウスオーバー*/
+.others-text a:hover {color: #aaa;}
+/*クリックした後*/
+.others-text a:visited {color: #eab863;}
+/*クリックするとき*/
+.others-text a:active {color: #ddd;}
+
+
+
+/**********   Fammについて  **********/
+
+
+.famm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 50px;
+}
+
+.famm img {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.famm-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.famm-text p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.chat {
+    background-color: #eeaf42;
+    width: 400px;
+    margin: 0 auto 50px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.chat a {
+    text-decoration: none;
+}
+
+/*クリックする前*/
+.chat a:link {color: #fff;}
+ /*マウスオーバー*/
+.chat  a:hover {color: #aaa;}
+/*クリックした後*/
+.chat  a:visited {color: #eee;}
+/*クリックするとき*/
+.chat  a:active {color: #bbb;}
+
+
+
+
+
+/**********   フッター  **********/
+
+footer {
+    background-color: #fae0df;
+    height: 70px;
+}
+
+.footer .navi {
+    text-align: center;
+}
+
+.footer .navi li {
+    margin-top: 30px;
+}
+
+
